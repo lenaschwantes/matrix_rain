@@ -1,0 +1,8 @@
+[project]
+name = "matrix-rain"
+version = "0.1.0"
+description = "Matrix digital rain effect"
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.5.0",
+]
