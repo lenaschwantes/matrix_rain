@@ -4,7 +4,7 @@ Efeito de chuva digital do Matrix feito com Pygame.
 
 ![Matrix Rain Effect](matrix_rain.gif)
 
-## 🚀 Rodar
+## Rodar
 ```bash
 # Com uv (recomendado)
 uv run --with pygame matrix-rain.py
@@ -14,19 +14,19 @@ pip install pygame
 python matrix-rain.py
 ```
 
-## ✨ Features
+## Features
 
 - Caracteres katakana autênticos do Matrix
 - Trail effect com fade gradual
 - Velocidades variadas para depth effect
 - 30 FPS smooth rendering
 
-## 🛠️ Stack
+## Stack
 
 - Python 3.11+
 - Pygame 2.5+
 
-## 📝 Como funciona
+## Como funciona
 
 ### Trail Effect
 O efeito de rastro característico do Matrix é criado através de uma técnica de **alpha blending**:
@@ -59,16 +59,16 @@ if i == 0:
 
 O caractere na ponta é branco-esverdeado brilhante, e os seguintes vão escurecendo progressivamente.
 
-## 🧠 Conceitos técnicos
+## Conceitos técnicos
 
 - **Frame-based animation**: Game loop a 30 FPS
 - **Alpha blending**: Composição de camadas semi-transparentes
 - **Object pooling**: Streams são reutilizados ao invés de recriados
 - **Bounds checking**: Só renderiza caracteres dentro da tela visível
 
-## 🎨 Customização
+## Customização
 
-Possíveis edições das constantes do código:
+Edite as constantes no código:
 - `FONT_SIZE`: tamanho dos caracteres
 - `alpha` na Surface: intensidade do trail (quanto menor, mais longo)
 - `CHARS`: conjunto de caracteres exibidos
