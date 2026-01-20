@@ -2,7 +2,7 @@
 
 Efeito de chuva digital do Matrix feito com Pygame.
 
-![Matrix Rain Effect](screenshot.png)
+![Matrix Rain Effect](matrix-rain.gif)
 
 ```bash
 # Com uv (recomendado)
