@@ -68,7 +68,7 @@ O caractere na ponta é branco-esverdeado brilhante, e os seguintes vão escurec
 
 ## 🎨 Customização
 
-Edite as constantes no código:
+Possíveis edições das constantes do código:
 - `FONT_SIZE`: tamanho dos caracteres
 - `alpha` na Surface: intensidade do trail (quanto menor, mais longo)
 - `CHARS`: conjunto de caracteres exibidos
